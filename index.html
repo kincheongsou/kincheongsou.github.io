@@ -289,85 +289,6 @@
     margin-top: 2px;
   }
 
-  /* ── Postdoc ad ── */
-  .postdoc-box {
-    background: #fff;
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--gold);
-    border-radius: 2px;
-    padding: 24px 28px;
-    margin-bottom: 16px;
-  }
-  .postdoc-badge {
-    display: inline-block;
-    background: var(--navy);
-    color: #e8c97a;
-    font-size: 10.5px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    padding: 3px 10px;
-    border-radius: 1px;
-    margin-bottom: 12px;
-  }
-  .postdoc-box h3 {
-    margin: 0 0 10px;
-    font-size: 18px;
-    color: var(--navy);
-  }
-  .postdoc-box p { font-size: 14px; }
-  .postdoc-topics {
-    list-style: none;
-    margin: 12px 0;
-  }
-  .postdoc-topics li {
-    padding: 4px 0 4px 16px;
-    font-size: 13.5px;
-    color: var(--text-mid);
-    position: relative;
-  }
-  .postdoc-topics li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: var(--gold);
-    font-size: 11px;
-    top: 5px;
-  }
-  .postdoc-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-top: 14px;
-  }
-  .postdoc-detail {
-    background: var(--cream);
-    border: 1px solid var(--border);
-    border-radius: 2px;
-    padding: 10px 14px;
-    font-size: 13px;
-  }
-  .postdoc-detail strong {
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--text-muted);
-    margin-bottom: 2px;
-  }
-  .apply-btn {
-    display: inline-block;
-    margin-top: 16px;
-    background: var(--navy);
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-    letter-spacing: 0.04em;
-    padding: 9px 20px;
-    border-radius: 2px;
-    transition: background 0.15s;
-  }
-  .apply-btn:hover { background: var(--navy-mid); }
-
   /* ── Sidebar ── */
   .side-section { margin-bottom: 32px; }
   .side-section h4 {
@@ -426,7 +347,6 @@
     .page-body { grid-template-columns: 1fr; }
     .main-col { padding-right: 0; }
     .side-col { border-left: none; border-top: 1px solid var(--border); padding-left: 0; }
-    .postdoc-details { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -443,7 +363,6 @@
     <span class="nav-name">Kin Cheong Sou</span>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#openings">Openings</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#grants">Grants</a></li>
       <li><a href="#teaching">Teaching</a></li>
@@ -525,66 +444,6 @@
       </div>
     </section>
 
-    <!-- Open position -->
-    <section id="openings">
-      <h2>Open position</h2>
-      <div class="postdoc-box">
-        <div class="postdoc-badge">Now recruiting</div>
-        <h3>Postdoctoral Researcher – Power Systems Analysis &amp; Control</h3>
-        <p>
-          The research group invites applications for a postdoctoral position funded under
-          international EU/Swedish/Taiwan collaborative projects with
-          KTH Royal Institute of Technology, Stockholm. The position is initially for one year,
-          renewable to two or three years subject to performance and continued funding.
-        </p>
-
-        <p style="margin-top:10px; font-size:13.5px; color:#555;"><strong style="color:var(--navy)">Sample research topics</strong></p>
-        <ul class="postdoc-topics">
-          <li>Worst-case and probabilistic load flow for three-phase unbalanced distribution systems</li>
-          <li>Robust network reconfiguration and optimal power flow under uncertainty</li>
-          <li>Mathematical modeling and control for inverter-dominated power systems</li>
-        </ul>
-
-        <p style="font-size:13.5px; color:#555;">
-          <strong style="color:var(--navy)">International collaboration.</strong>
-          The postdoc will collaborate closely with
-          Prof. Henrik Sandberg (KTH) and is expected to spend up to six months at KTH over
-          the course of the appointment.
-        </p>
-
-        <div class="postdoc-details">
-          <div class="postdoc-detail">
-            <strong>Salary</strong>
-            TWD 70,000 – 100,000 / month
-          </div>
-          <div class="postdoc-detail">
-            <strong>Start date</strong>
-            As soon as possible (negotiable)
-          </div>
-          <div class="postdoc-detail">
-            <strong>Required qualifications</strong>
-            PhD in EE, Applied Math, Automatic Control, or related field
-          </div>
-          <div class="postdoc-detail">
-            <strong>Language</strong>
-            English proficiency required; Chinese not required
-          </div>
-        </div>
-
-        <p style="margin-top:16px; font-size:13.5px; color:#555;">
-          <strong style="color:var(--navy)">To apply</strong>, please email a CV, a 1–2 page statement of research interests,
-          publication list, PhD certificate (or expected graduation date), and two or more
-          letters of recommendation (or referee contacts) to:
-        </p>
-        <a class="apply-btn" href="mailto:sou12@mail.nsysu.edu.tw?subject=Postdoc%20Application">
-          Apply by email →
-        </a>
-        <a class="apply-btn" href="postdoc_ad_NSYSU_EE.docx" style="margin-left:10px; background:#fff; color:var(--navy); border:1px solid var(--navy);">
-          Download full ad (.docx) →
-        </a>
-      </div>
-    </section>
-
     <!-- Publications -->
     <section id="publications">
       <h2>Selected publications</h2>
@@ -658,6 +517,10 @@
     <section id="grants">
       <h2>Research grants</h2>
       <ul class="grant-list">
+        <li>
+          "Probabilistic power flow analysis technique using distribution-to-distribution deep learning,"
+          <div class="grant-meta">National Science and Technology Council &amp; Taiwan Power Company, Taiwan · PI · Aug 2026 – Jul 2027</div>
+        </li>
         <li>
           "Proactive resilience enhancement for electric power grids,"
           <div class="grant-meta">National Science and Technology Council, Taiwan · PI · Apr 2026 – Mar 2029</div>
